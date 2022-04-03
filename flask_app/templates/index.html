@@ -28,13 +28,18 @@
         {% endfor %}
     </ul>
 
-    <div class="btn-section">
-        <p>
-            <button><a href="{{ url_for('login')}}"> Login </a></button> &nbsp;
-            <button><a href="{{ url_for('register')}}"> Register </a></button> &nbsp;
-            <button><a href="{{ url_for('view')}}"> View </a></button>
-        </p>
-    </div>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <a href="{{ url_for('login')}}">
+            <button type="button" class="btn btn-outline-primary">Login</button>
+        </a> &nbsp;
+        <a href="{{ url_for('register')}}">
+            <button type="button" class="btn btn-outline-primary">Register</button>
+        </a>&nbsp;
+        <a href="{{ url_for('view')}}">
+            <button type="button" class="btn btn-outline-primary">View</button>
+        </a>
+      </div>
+
     
 
 

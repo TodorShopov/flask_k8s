@@ -14,8 +14,10 @@
 {% block body %}
     <h1>Log In</h1>
 
-    <p>
-        <button><a href="{{ url_for('home')}}"> Home </a></button> &nbsp;
-    </p>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <a href="{{ url_for('home')}}">
+            <button type="button" class="btn btn-outline-primary">Home</button>
+        </a>
+    </div>
 
 {% endblock %}
