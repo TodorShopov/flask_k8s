@@ -2,10 +2,33 @@
 
 {% block head%}
 
+    {% if title %}
+        <title>Welcome to {{ title }}</title>
+    {% else %}
+        <title>Welcome</title>
+    {% endif %}
+
 {% endblock %}
+
+
 
 
 {% block body %}
     <h1>Home</h1>
+
+    <ul>
+        {% for post in posts %}
+            <li> {{ post.author }}</li>
+            <ul>
+                <li> {{ post.title }}</li>
+                <li> {{ post.content }}</li>
+                <li> {{ post.date_posted }}</li>
+            </ul>
+            <br />
+        {% endfor %}
+    </ul>
+    
+
+
 
 {% endblock %}

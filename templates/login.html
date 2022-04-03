@@ -2,6 +2,12 @@
 
 {% block head%}
 
+    {% if title %}
+        <title>Welcome to {{ title }}</title>
+    {% else %}
+        <title>Welcome</title>
+    {% endif %}
+
 {% endblock %}
 
 
