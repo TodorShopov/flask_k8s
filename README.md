@@ -2,7 +2,7 @@
 This is a Flask App that runs on Kubernetes
 
 ## Installation
-1. Clone/Fork the git repo and create a virtual environment
+### 1. Clone/Fork the git repo and create a virtual environment
 
 on Mac
 ```
@@ -11,7 +11,7 @@ cd flask_k8s
 pip install virtualenv
 virtualenv env
 ```
-2. Activate the virtual environment
+### 2. Activate the virtual environment
 
 on Mac
 ```
@@ -22,7 +22,7 @@ OR
 . env/bin/activate
 ```
 
-3. Run the application
+### 3. Run the application
 ```
 chmod +x build.sh
 chmod +x run.sh
