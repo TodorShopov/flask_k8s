@@ -39,7 +39,7 @@ def view():
 
 
 if __name__ == '__main__':
-    app.route(debug=True)
+    app.run(debug=True)
 
 
 
