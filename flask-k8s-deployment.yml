@@ -5,15 +5,15 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: flask-k8s-deployment
+      app: flask-k8s
   template:
     metadata:
       labels:
-        app: flask-k8s-deployment
+        app: flask-k8s
     spec:
       containers:
-      - name: flask-k8s-deployment
-        image: docker.io/randilt/flask_app
-        imagePullPolicy: IfNotPresent
-        ports:
-        - containerPort: 5000
+        - name: flask-k8s
+          image: docker.io/randilt/flask_app
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5000
