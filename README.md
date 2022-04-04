@@ -31,7 +31,7 @@ chmod +x run.sh
 ./run.sh
 ```
 
-- Head over to `localhost:4449` to view the app. You can customize the `app.py` and templates as you prefer.
+- Head over to `localhost:4449` to view the app. You can customize the `app.py` and `templates` as you prefer.
 
 
 
