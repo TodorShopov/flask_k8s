@@ -1,9 +1,15 @@
 # flask_k8s
-This is a Flask App that runs on Kubernetes
 
-Part 1: runs on [Docker](https://github.com/randiltennakoon/flask_k8s/tree/run_on_docker)
+In this part the Flask App runs on Kubernetes
 
-Part 2: runs on Kubernetes
+## Installation
+
+### 1. Create the Kubernetes Delloyment 
+```
+kubectl apply -f flask-k8s-deployment.yml
+```
+
+
 
 
 
