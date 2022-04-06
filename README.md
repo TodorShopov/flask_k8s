@@ -1,5 +1,5 @@
-# flask_k8s
-In this part the Flask App runs on Docker
+# Part 1: Flask App runs on Docker 
+In this part the Flask App will run on Docker based on the Dcoker image we build
 
 ## Installation
 ### 1. Clone/Fork the git repo and create a virtual environment
