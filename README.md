@@ -31,6 +31,8 @@ chmod +x run.sh
 ./run.sh
 ```
 
+- [Docker image](https://hub.docker.com/repository/docker/randilt/flask_app)
+
 - Navigate to `localhost:4449` to view the app. You can customize the `app.py` and `templates` as you prefer.
 
 ![](https://github.com/randiltennakoon/flask_k8s/blob/run_on_docker/flask_app.png?raw=true)
