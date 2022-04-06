@@ -34,6 +34,8 @@ minikube service --all
 ```
 minikube dashboard
 ```
+![](https://github.com/randiltennakoon/flask_k8s/blob/run_on_kubernetes/kubernetes_dashboard.png?raw=true)
+
 
 
 
