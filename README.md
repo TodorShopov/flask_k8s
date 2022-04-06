@@ -1,4 +1,4 @@
-This is a Flask App that runs on Kubernetes
+# This is a Flask App that runs on Docker & Kubernetes
 
 - Part 1: runs on [Docker](https://github.com/randiltennakoon/flask_k8s/tree/run_on_docker)
 
