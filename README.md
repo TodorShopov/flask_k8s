@@ -1,4 +1,4 @@
-# flask_k8s
+# Part 2: Flask App runs on Kubernetes
 
 In this part the Flask App runs on Kubernetes
 
